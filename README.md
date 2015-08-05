@@ -1,0 +1,1 @@
+A Route-Planner for speedruns. Basically I looked at a route for pokemon r/b any% glitchless and was like, "Theres a lot of information here, it's difficult to parse whats important and whats not. I want to create a format that is easier to look at than this block of ascii text". Then I was like, "splits.io is a thing, what if there was a routes.io, that would be cool".

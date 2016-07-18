@@ -33,15 +33,6 @@
   color: #FFFFFF;
 }
 
-.red {
-  color: #FF4747;
-}
-
-.blue {
-  color: #4805FF;
-}
-
-.gold {
-  
-  color: #FFD82B;
+.sublist {
+  list-style-type:circle;
 }

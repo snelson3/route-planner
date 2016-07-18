@@ -1,0 +1,29 @@
+<span>This is the page that renders the route, right now it renders the blue file hard coded"</span>
+
+<div>Route: {{route.name}}</div>
+<div>Description: {{route.description}}</div>
+<div>Expected time: {{routetime}}</div>
+
+<div>Route: 
+	<div ng-repeat="step in route.route">
+		<div dropdown="dropdown" class="btn-group open pointer">
+            <button type="button" ng-disabled="disabled" dropdown-toggle
+                                    class="btn btn-lg dropdown-toggle btn-default no-label">            
+                <span>{{step.title}}</span>
+                <span class="caret"></span>
+			</button>
+		</div>
+        <ul role="menu" class="dropdown-menu pull-right">
+        	<div>
+        		<div ng-show="step.descr">{{step.descr}}</div>
+        		<div ng-if="step.steps">
+        			<ul class="sublist">
+        				<li ng-repeat="substep in step.steps">
+        					{{substep.step}} {{substep.descr}}
+        				</li>
+        			</ul>
+        		</div>
+        	</div>
+        </ul>
+	</div>
+</div>

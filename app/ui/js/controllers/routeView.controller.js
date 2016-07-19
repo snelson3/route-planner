@@ -1,14 +1,17 @@
 routePlanner.controller('routeViewController', ['$scope', '$http', 'routeViewService',
   function($scope, $http, routeViewService) {
-    $scope.route = undefined;
+    $scope.routes = undefined;
 
-    routeViewService.getRoute('blue').success(function(data) {
-      console.log("got the data");
-      $scope.route = data;
+    routeViewService.getRouteNames().then(function(ret) {
+      $scope.routes = ret.data;
     });
 
+    $scope.route = undefined;
+    
     $scope.getRoute = function(name) {
-      $scope.route = routeViewService.getRoute(name);
+      routeViewService.getRoute(name).then(function(ret) {
+        $scope.route = ret.data;
+      });
     };
 
 }]);

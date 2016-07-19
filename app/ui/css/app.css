@@ -36,3 +36,11 @@
 .sublist {
   list-style-type:circle;
 }
+
+.menulist {
+  list-style-type:triangle;
+}
+
+.battlelist {
+  list-style-type:square;
+}

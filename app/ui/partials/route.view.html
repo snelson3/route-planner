@@ -1,29 +1,76 @@
-<span>This is the page that renders the route, right now it renders the blue file hard coded"</span>
+<div class="col-md-4">
+	<div ng-if="routes.length == 0">
+		There are no routes available, have you tried creating one?
+	</div>
+	<div ng-if="routes.length>0">
+		Select a route
 
-<div>Route: {{route.name}}</div>
-<div>Description: {{route.description}}</div>
-<div>Expected time: {{routetime}}</div>
+		<table>
+			<tr>
+				<td>
+					Route Name
+				</td>
+			</tr>
+			<tr ng-repeat="rt in routes">
+				<td>
+					<button ng-click="getRoute(rt)" class="btn btn-lg dropdown-toggle btn-default no-label">
+						<span>{{rt}}</span>
+					</button>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
 
-<div>Route: 
-	<div ng-repeat="step in route.route">
-		<div dropdown="dropdown" class="btn-group open pointer">
-            <button type="button" ng-disabled="disabled" dropdown-toggle
-                                    class="btn btn-lg dropdown-toggle btn-default no-label">            
-                <span>{{step.title}}</span>
-                <span class="caret"></span>
-			</button>
+<div class="col-md-8">
+	<div ng-if="route==undefined">
+		Please select a route to the left
+	</div>
+	<div ng-if="route!=undefined">
+		<div>Route: {{route.name}}</div>
+		<div>Description: {{route.description}}</div>
+		<div>Game: {{route.game}}</div>
+		<div>System: {{route.system}}</div>
+		<div>Expected time: {{route.time}}</div>
+
+		<div>Route:
+			<div ng-repeat="step in route.route">
+				<h1> {{step.title}}</h1>
+				<h3 ng-if="step.location"> {{step.location}}</h3>
+				<div>
+					<div ng-if="step.steps">
+						<ul class="sublist">
+							<li ng-repeat="substep in step.steps">
+								<span ng-if="substep.desc"> {{substep.desc}} </span>
+								<div ng-if="substep.fight"> {{substep.fight}} </div>
+								<div ng-if="substep.hint"> {{substep.hint}}</div>
+								<ul class="battlelist" ng-if="substep.battle">
+									<li ng-repeat="moment in substep.battle">
+										{{moment}}
+									</li>
+								</ul>
+								<div ng-if="substep.boss">
+									<b>{{substep.boss.title}}</b>
+									<span> - {{substep.boss.desc}}</span>
+									<ul class="battlelist" ng-if="substep.boss.battle">
+										<li ng-repeat="moment in substep.boss.battle">
+											{{moment}}
+										</li>
+									</ul>
+								</div>
+								<ul class="menulist" ng-if="substep.menu">
+									<li ng-repeat="itm in substep.menu">
+										{{itm}}
+									</li>
+								</ul>
+
+							</li>
+						</ul>
+					</div>
+				</div>
+
+
+			</div>
 		</div>
-        <ul role="menu" class="dropdown-menu pull-right">
-        	<div>
-        		<div ng-show="step.descr">{{step.descr}}</div>
-        		<div ng-if="step.steps">
-        			<ul class="sublist">
-        				<li ng-repeat="substep in step.steps">
-        					{{substep.step}} {{substep.descr}}
-        				</li>
-        			</ul>
-        		</div>
-        	</div>
-        </ul>
 	</div>
 </div>

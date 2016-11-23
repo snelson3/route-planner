@@ -1,0 +1,902 @@
+{
+	"name": "Kingdom Hearts 2 Final Mix+ Beginner Mode any%",
+	"description": "A route for the JP version of kh2fm beginner I made 3 years ago. Want to get sub 5 with this before updating my route",
+	"system": "PS2",
+	"game": "Kingdom Hearts 2 Final Mix+",
+	"time": "5:00:00",
+	"route": [{
+		"step": 1,
+		"title": "Day 1",
+		"location": "Twilight Town",
+		"steps": [{
+			"step": 1,
+			"desc": "Go forward and talk to people"
+		}, {
+			"step": 2,
+			"desc": "Choose right weapon"
+		}, {
+			"step": 3,
+			"desc": "Fight Seifer with jump combos"
+		}, {
+			"step": 4,
+			"desc": "Run torwards nobody"
+		}, {
+			"step": 5,
+			"desc": "Fight nobody"
+		}]
+	}, {
+		"step": 2,
+		"title": "Day 2",
+		"location": "Twilight Town",
+		"steps": [{
+			"step": 1,
+			"desc": "Go to save point"
+		}, {
+			"step": 2,
+			"desc": "In alley go backwards to grab skateboard and go forwards"
+		}, {
+			"step": 3,
+			"desc": "do delievery mail"
+		}]
+	}, {
+		"step": 3,
+		"title": "Day 3",
+		"location": "Twilight Town",
+		"steps": [{
+			"step": 1,
+			"desc": "Go into alley, skateboard, run forwards"
+		}, {
+			"step": 2,
+			"desc": "Against nobody, jump attacks"
+		}, {
+			"step": 3,
+			"desc": "grab sword"
+		}, {
+			"step": 4,
+			"desc": "Jump attacks on nobody's"
+		}, {
+			"step": 5,
+			"boss": {
+				"title": "Twilight Thorn",
+				"desc": "Do reaction thing, Jump combos, run backwards when he runs torwards, and jump combos, reversing when needed, should easily 1 cycle him"
+			}
+		}]
+	}, {
+		"step": 4,
+		"title": "Day 4",
+		"location": "Twilight Town",
+		"steps": [{
+			"step": 1,
+			"desc": "Pause 1",
+			"menu": [
+				"go to options, turn off summon effects",
+				"equip guard"
+			]
+		}, {
+			"step": 2,
+			"desc": "fight hayner",
+			"fight": "one jump hit, then do ground combos, kind of running away until he's out of balls"
+		}, {
+			"step": 3,
+			"desc": "Fight Vivi",
+			"fight": "just ground combos only, the three hit one"
+		}, {
+			"step": 4,
+			"desc": "Fight Axel",
+			"fight": "Jump hits on Axel"
+		}, {
+			"step": 5,
+			"desc": "Use single hits to let seifer kill you"
+		}]
+	}, {
+		"step": 5,
+		"title": "Day 5",
+		"location": "Twilight Town",
+		"steps": [{
+			"step": 1,
+			"desc": "Pause 2",
+			"menu": ["equip medal"]
+		}, {
+			"step": 2,
+			"desc": "try to do single hits against Vivi's"
+		}, {
+			"step": 3,
+			"desc": "Ground hits against shadow dude"
+		}]
+	}, {
+		"step": 6,
+		"title": "Day 6",
+		"location": "Twilight Town",
+		"steps": [{
+			"step": 1,
+			"desc": "cut through the sandlot"
+		}, {
+			"step": 2,
+			"boss": {
+				"title": "Axel",
+				"desc": "Do ground combos, don't do the clash reaction command"
+			}
+		}]
+	}, {
+		"step": 7,
+		"title": "Twlight Town - Sora I",
+		"location": "Twilight Town",
+		"steps": [{
+			"step": 1,
+			"desc": "Change equips",
+			"menu": [
+				"Steal Donald/Goofies items",
+				"equip Aerial Recovery"
+			]
+		}, {
+			"step": 2,
+			"desc": "Grab ether chest right inside of Wizards tower to the right"
+		}]
+	}, {
+		"step": 8,
+		"title": "Hollow Bastion I",
+		"location": "Hollow Bastion",
+		"steps": [{
+			"step": 1,
+			"desc": "Valor form immediately"
+		}, {
+			"step": 2,
+			"desc": "After going into Merlin's house, run left up to the to level by the bailey, grab two treasure chests (one on the left, one on the center)"
+		}]
+	}, {
+		"step": 9,
+		"title": "Land of Dragons I",
+		"location": "Land of Dragons",
+		"steps": [{
+			"step": 1,
+			"desc": "Change equips",
+			"menu": [
+				"Swap Donald out for Goofy",
+				"Use AP boosts on Sora",
+				"Steal Mulans Ether",
+				"Equip Ethers to Sora",
+				"Equip combo Boost (Green, 5 AP)"
+			]
+		}, {
+			"step": 2,
+			"desc": "Walk back behind save point to grab ether chest, then drive and go forward into battle",
+			"hint": "Apart from the shadows, use jump combos on the heartless here"
+		}, {
+			"step": 3,
+			"desc": "Do the 3 missions, drive ASAP",
+			"hint": "Drive gauge should be refilled torwards the end of the third mission"
+		}, {
+			"step": 4,
+			"desc": "Valor form after fighting in cave with Mulan, on way out grab AP boost on left side of tunnel"
+		}, {
+			"step": 5,
+			"desc": "On way up the mountain, grab AP boost behind fireworks"
+		}, {
+			"step": 6,
+			"desc": "After mountain fight, pause II",
+			"menu": [
+				"Use AP boosts on Sora",
+				"Equip Slide dash and Scan",
+				"Unequip Dragonblaze from Mulan"
+			]
+		}, {
+			"step": 7,
+			"desc": "Drive on way back down mountain, and redrive after sora only spot"
+		}, {
+			"step": 8,
+			"boss": {
+				"title": "Shan-Yu",
+				"desc": "Do initial Jump hit, then ground combos until shadow mode, then guard when he comes at you."
+			}
+		}]
+	}, {
+		"step": 10,
+		"title": "Olympus Coliseum I",
+		"location": "Olympus Coliseum",
+		"steps": [{
+			"step": 1,
+			"desc": "Escape with Auron",
+			"battle": [
+				"Steal Aurons Ethers (Scan)",
+				"On second platform, use Auron's limit",
+				"When Fat guy appears use Auron's limit"
+			]
+		}, {
+			"step": 2,
+			"desc": "Pause III",
+			"menu": [
+				"Equip Hidden Dragon keyblade",
+				"Unequip Healing Water from Auron"
+			]
+		}, {
+			"step": 3,
+			"desc": "On way to Ceberus, grab AP boost on stairs to the right in the tunnel, and the Ether a little ways above that"
+		}, {
+			"step": 4,
+			"boss": {
+				"title": "Ceberus",
+				"desc": "Jump backwards a bit, do ice to get him to spit fire, die, utilize Mickey"
+			}
+		}, {
+			"step": 5,
+			"desc": "Use Valor form to go back and forth in Olympus"
+		}, {
+			"step": 6,
+			"desc": "After going back down, grab big green chest in Lobby of the Underworld."
+		}, {
+			"step": 7,
+			"desc": "Grab AP boost on platform before demyx"
+		}, {
+			"step": 8,
+			"desc": "Grab AP boost to left of green portal"
+		}, {
+			"step": 9,
+			"desc": "Pause IV",
+			"menu": [
+				"Equip Kingdom Key",
+				"Equip Aerial Dive"
+			]
+		}, {
+			"step": 10,
+			"desc": "drive into valor during the second part of Pete fight"
+		}, {
+			"step": 10,
+			"desc": "Pause V",
+			"menu": [
+				"Unequip Combo Boost",
+				"Equip Trinity Limit"
+			]
+		}, {
+			"step": 11,
+			"boss": {
+				"title": "Hydra",
+				"desc": "Use trinity limit immediately, then jump on Hydra's back. Trinity limit again right away. Do jump attacks, when heads are down, use Ether and Trinity Limit again, more jump attacks."
+			}
+		}]
+	}, {
+		"step": 11,
+		"title": "Hollow Bastion 2",
+		"location": "Hollow Bastion",
+		"steps": [{
+			"step": 1,
+			"desc": "Grab AP boost behind Pooh's house"
+		}, {
+			"step": 2,
+			"desc": "Pause VI",
+			"menu": [
+				"Use AP boosts on Sora",
+				"Equip Olympus Coliseum Keyblalde",
+				"Equip Combo Boost"
+			]
+		}]
+	}, {
+		"step": 12,
+		"title": "Beast's Castle I",
+		"location": "Beast's Castle",
+		"steps": [{
+			"step": 1,
+			"desc": "In first room, use Trinity Limit, just square side and kill all the shadows"
+		}, {
+			"step": 2,
+			"desc": "Use Valor and run around"
+		}, {
+			"step": 3,
+			"boss": {
+				"title": "Door shadow",
+				"desc": "Go to Valor before battle, attack the door shadow exclusively, jump combos"
+			}
+
+		}, {
+			"step": 4,
+			"desc": "Grab AP boost in save room, chest on right side"
+		}, {
+			"step": 5,
+			"desc": "Drive and grab AP boost right after lantern minigame, and AP boost in next area behind statues"
+		}, {
+			"step": 6,
+			"desc": "Jump combo on Beast"
+		}, {
+			"step": 7,
+			"desc": "Change equips",
+			"menu": [
+				"Donald out for Goofy",
+				"From Beast unequip Ferocious Rush and Howling Moon"
+			]
+		}, {
+			"step": 8,
+			"desc": "Valor form to run to Ballroom"
+		}, {
+			"step": 9,
+			"boss": {
+				"title": "Chandelier boss",
+				"desc": "Jump combos on first form of boss. Jump combos on invisible boss, ignore reaction command, when he is on last health bar, Trinity Limit"
+			}
+		}]
+	}, {
+		"step": 13,
+		"title": "Disney Castle",
+		"location": "Disney Castle",
+		"steps": [{
+			"step": 1,
+			"desc": "Valor form in Disney Castle"
+		}, {
+			"step": 2,
+			"desc": "Go front right corner of Disney courtyard to grab AP boost"
+		}]
+	}, {
+		"step": 14,
+		"title": "Timeless River",
+		"location": "Timeless River",
+		"steps": [{
+			"step": 1,
+			"desc": "Go visit the Moogle",
+			"menu": [
+				"Drop off synthesis materials",
+				"Buy Tournamline Ring",
+				"Equip Ring"
+			]
+		}, {
+			"step": 2,
+			"desc": "Drive on way to see Pete, Jump combo on Pete"
+		}, {
+			"step": 3,
+			"desc": "Doors!",
+			"battle": [
+				"Second door is first",
+				"Use Chicken Little in town room",
+				"In firefighter room, use Trinity Limit when two cars show up",
+				"Chicken Little in dark hole room"
+			]
+		}, {
+			"step": 4,
+			"desc": "Pause VII",
+			"menu": [
+				"Use AP boosts",
+				"Unequip Guard",
+				"Equip Counterguard and Reaction boost"
+			]
+		}, {
+			"step": 5,
+			"desc": "Last door, jump combos on the scaffolding guys, until time to use the reaction command thing"
+		}, {
+			"step": 6,
+			"desc": "Valor form and run to Petes boat"
+		}, {
+			"step": 7,
+			"boss": {
+				"title": "Boat Pete",
+				"desc": "After Pete is knocked out, run and grab AP boost at end of Ocean, then get on and hit Pete"
+			}
+		}, {
+			"step": 8,
+			"boss": {
+				"title": "Pete",
+				"desc": "Just do ground combos until Pete retreats once. After scene switch use Trinity limit"
+			}
+		}]
+	}, {
+		"step": 15,
+		"title": "Port Royal I",
+		"location": "Port Royal",
+		"steps": [{
+			"step": 1,
+			"desc": "Pause VIII",
+			"menu": [
+				"Equip Reflect to x button"
+			]
+		}, {
+			"step": 2,
+			"battle": [
+				"Slide dash in and reflect on the invincible pirates",
+				"Second part of pirates, use ice on them until mp is out"
+			]
+
+		}, {
+			"step": 3,
+			"desc": "After town battle, turn right to alleyway, when in between boxes, drive into Wisdom, turn right and grab AP boost"
+		}, {
+			"step": 4,
+			"desc": "Use Ice on this zombie ambush"
+		}, {
+			"step": 5,
+			"desc": "Use Chicken Little during the 1 minute pirate thing"
+		}, {
+			"step": 6,
+			"desc": "During battle with Black Pearl, go up stairs and call up Chicken Little, jump combos on the pirates"
+		}, {
+			"step": 7,
+			"desc": "When on Isla De Meurta, Valor form"
+		}, {
+			"step": 8,
+			"desc": "On way to Barbossa, grab AP boost behind the exploding boxes, last exploding box has an AP boost too"
+		}, {
+			"step": 9,
+			"boss": {
+				"title": "Barbossa",
+				"desc": "After Valor form, ice lock Barbossa, and use jump combos"
+
+			}
+		}]
+	}, {
+		"step": 16,
+		"title": "Agrabah I",
+		"location": "Agraba",
+		"steps": [{
+			"step": 1,
+			"desc": "Trinity Limit right away"
+		}, {
+			"step": 2,
+			"desc": "When Alladin comes in, change equips",
+			"menu": [
+				"Use AP boosts on Sora",
+				"Steal Aladdin's Ethers",
+				"Equip Guard",
+				"Equip Aerial Spiral and Aerial Finish",
+				"Unequip Counterguard",
+				"Equip Item Boost",
+				"Switch to Donald, and equip Donald Cure"
+			]
+		}, {
+			"step": 3,
+			"desc": "Use Wisdom Form, on way out of city, destroy last booth in the path on the left for an AP boost"
+		}, {
+			"step": 4,
+			"desc": "Grab AP boost form the second chest on the way down the cave"
+		}, {
+			"step": 5,
+			"desc": "Grab AP boost from chest to the right before going to treasure room"
+		}, {
+			"step": 6,
+			"desc": "In treasure room switch to Goofy during fist wave so during second you can Trinity Limit the three fat bodies"
+		}, {
+			"step": 7,
+			"desc": "Valor form after treasure room, run torwards bosses"
+		}, {
+			"step": 8,
+			"boss": {
+				"title": "2 Elemental Lords",
+				"desc": "Focus on each boss as they are big, when one is destroyed, use Aladdins limit on the other"
+			}
+		}]
+	}, {
+		"step": 17,
+		"title": "Twilight Town II",
+		"location": "Twilight Town",
+		"steps": [{
+			"step": 1,
+			"desc": "When entering, use Valor form"
+		}]
+	}, {
+		"step": 18,
+		"title": "Dodge Roll Leveling",
+		"location": "Agrabah",
+		"steps": [{
+			"step": 1,
+			"desc": "Switch to Oathkeeper beforehand"
+		}, {
+			"step": 2,
+			"desc": "Switch back to Heroes Crest after"
+		}]
+	}, {
+		"step": 19,
+		"title": "Halloween Town I",
+		"location": "Halloween Town",
+		"steps": [{
+			"step": 1,
+			"desc": "Change Equips",
+			"menu": [
+				"Switch Donald out for Goofy",
+				"Steal Jacks Ethers"
+			]
+		}, {
+			"step": 2,
+			"desc": "Summon Genie before leaving the lab"
+		}, {
+			"step": 3,
+			"desc": "Don't kill the enemies in the forced battle, let them hit you"
+		}, {
+			"step": 4,
+			"desc": "Grab AP boost behind tree on way to Christmas Town"
+		}, {
+			"step": 5,
+			"desc": "During second? wave of required Christmas town party fight use Jacks limit"
+		}, {
+			"step": 6,
+			"desc": "On way out of Christmas Town, buy Auamarine ring",
+			"menu": [
+				"equip Aumarine ring"
+			]
+		}, {
+			"step": 7,
+			"boss": {
+				"title": "Graveyard Heartless",
+				"desc": "Use Jacks limit on graveyard boss, and then Valor form, reuse Jacks limit when he has 1 HP bar left"
+			}
+		}, {
+			"step": 8,
+			"boss": {
+				"title": "Grab AP boost past save in Santas house"
+			}
+		}, {
+			"step": 9,
+			"boss": {
+				"title": "Oogie Boogie",
+				"desc": "Air combos, use Trinity Limit second time Oogie Boogie gets knocked down"
+			}
+		}]
+	}, {
+		"step": 20,
+		"title": "Hollow Bastion III",
+		"location": "Hollow Bastion",
+		"steps": [{
+			"step": 1,
+			"desc": "Drive into Wisdom when entering the bailey"
+		}, {
+			"step": 2,
+			"desc": "Grab AP boost in corner before entering building"
+		}, {
+			"step": 3,
+			"desc": "Grab AP boost all the way to the right in the maze (keep taking rights till you get there)"
+		}, {
+			"step": 4,
+			"desc": "Drive when you get near the cursed brick to destroy it"
+		}, {
+			"step": 5,
+			"desc": "Grab stitch on way back to Tron"
+		}]
+	}, {
+		"step": 21,
+		"title": "Space Paranoids",
+		"location": "Space Paranoids",
+		"steps": [{
+			"step": 1,
+			"desc": "Go left at first intersection during Tron cycles"
+		}, {
+			"step": 2,
+			"desc": "When you get Tron change equips",
+			"menu": [
+				"Change triangle shortcut to Magnet",
+				"Use AP boosts",
+				"Steal Trons Ethers",
+				"Change Master form keyblade to Oathkeeper",
+				"Change Medal to Aquamarine ring",
+				"Equip Finishing Leap",
+				"Equip Flash Step",
+				"Unequip Aerial Finish",
+				"Unequip Autolimit from Tron"
+			]
+		}, {
+			"step": 3,
+			"desc": "Summon Chicken Little on way to dataspace green machine"
+		}, {
+			"step": 4,
+			"desc": "Use Finishing Leap combo against those guys in the dataspace room"
+		}, {
+			"step": 5,
+			"desc": "After Dataspace fight go to Tron, unequip Auto-limit"
+		}, {
+			"step": 6,
+			"desc": "Grab AP boost in top left of room past bridge"
+		}, {
+			"step": 7,
+			"boss": {
+				"title": "NOT_FOUND Heartless",
+				"desc": "Air combos on boss, use Trinity Limit. Go Master form when 2 HP bars are left"
+			}
+		}]
+	}, {
+		"step": 22,
+		"title": "Hollow Bastion III.V",
+		"location": "Hollow Bastion",
+		"steps": [{
+			"step": 1,
+			"desc": "Chicken Little on required fight outside of room, Finishing Leap is boss"
+		}, {
+			"step": 2,
+			"desc": "Chicken Little on next required fight"
+		}, {
+			"step": 3,
+			"desc": "Before Demyx, pause IX",
+			"menu": [
+				"Unequip Flash step",
+				"Equip Aerial Finish"
+			]
+		}, {
+			"step": 4,
+			"boss": {
+				"title": "Demyx",
+				"desc": "At end of water forms, use Trinity Limit, do a ground combos, summon stitch, guard/reflect his attacks"
+			}
+		}, {
+			"step": 5,
+			"desc": "Grab AP boost in cave before 1000 Heartless battle"
+		}, {
+			"step": 6,
+			"desc": "Pause X",
+			"menu": [
+				"Use AP boosts",
+				"Equip Flash Step",
+				"Equip Experience Boost and Drive Boost",
+				"Switch to Goofy equip Goofy Bash and Jackpot"
+			]
+		}, {
+			"step": 7,
+			"desc": "1000 Heartless battle",
+			"fight": "Use Reaction commands to kill 1000 Heartless, work on damaging yourself to critical mode"
+		}]
+	}, {
+		"step": 23,
+		"title": "Rumbling Rose",
+		"location": "Beast's Castle",
+		"steps": [{
+			"step": 1,
+			"desc": "Change Equips",
+			"menu": ["Switch Beast out, so you can Trinity Limit during Ballroom fight"]
+		}, {
+			"step": 2,
+			"desc": "Wisdom Form on way to Beast"
+		}, {
+			"step": 3,
+			"desc": "Pause XI",
+			"menu": [
+				"Equip Rumbling Rose",
+				"Equip Hero's Crest to Master Form",
+				"Equip Guard Break",
+				"Unequip Experience Boost, equip Draw"
+			]
+		}]
+	}, {
+		"step": 24,
+		"title": "Port Royal II",
+		"location": "Port Royal",
+		"steps": [{
+				"step": 1,
+				"desc": "Use Ice to nail the pirates"
+			}, {
+				"step": 2,
+				"boss": {
+					"title": "Grim Reaper I",
+					"desc": "Use Finishing Learp until it's first bar is destroyed, then Master Form"
+				}
+			}, {
+				"step": 3,
+				"desc": "Pause XII",
+				"menu": [
+					"Equip horizontal slash"
+				]
+			}, {
+				"step": 4,
+				"desc": "Collect the cursed coins!",
+				"battle": [
+					"Use Thunder and Trinity Limit on curse holding Heartless",
+					"Get the Curse holding Heartless under the shipwrecked area",
+					"On the quick Heartless, do a Finishing Leap combo, then air square combo",
+					"Get the Heartless in the exploding box areas"
+				]
+			}, {
+				"step": 5,
+				"boss": {
+					"title": "Grim Reaper II",
+					"desc": "Do Blizzard into Finishing Leap into air combos. Master Form and Ethers do destroy get all the gold from the third form"
+				}
+			}
+
+		]
+	}, {
+		"step": 25,
+		"title": "Halloween Town II",
+		"location": "Halloween Town",
+		"steps": [{
+			"step": 1,
+			"desc": "Thunder into Trinity Limit on Lock/Shock/Barrel"
+		}, {
+			"step": 2,
+			"desc": "When leaving Christmas town, hit the carosel and grab the two Jackpots"
+		}, {
+			"step": 3,
+			"desc": "In Presents fight, use Jack's limit"
+		}, {
+			"step": 4,
+			"boss": {
+				"title": "The Experiment",
+				"desc": "Jacks limit on the Experiment, air combos, Master Form after he does his Pinball thing"
+			}
+		}]
+	}, {
+		"step": 26,
+		"title": "Agrabah II",
+		"location": "Agrabah",
+		"steps": [{
+			"step": 1,
+			"desc": "Get Jackpot in area before leaving Agrabah City"
+		}, {
+			"step": 2,
+			"desc": "Pause XIII",
+			"menu": [
+				"Equip Decisive Pumpkin to Master form"
+			]
+		}, {
+			"step": 3,
+			"boss": {
+				"title": "Jafar",
+				"desc": "Use Finishing Leap into Horizontal Slash combos on Jafar, and do Jafars roll up Reaction Command"
+			}
+		}]
+	}, {
+		"step": 27,
+		"title": "Beast's Castle 2",
+		"location": "Beast's Castle",
+		"steps": [{
+			"step": 1,
+			"desc": "Use Magnet on Nobodies in Beast's Castle"
+		}, {
+			"step": 2,
+			"desc": "Master form before loading Xaldin fight"
+		}, {
+			"step": 3,
+			"boss": {
+				"title": "Xaldin",
+				"desc": "Abuse Learn command."
+			}
+		}]
+	}, {
+		"step": 28,
+		"title": "Land of Dragons II",
+		"location": "Land of Dragons",
+		"steps": [{
+			"step": 1,
+			"desc": "Finishing Leap combo, into Trinity Limit, into Limit form against Riku"
+		}, {
+			"step": 2,
+			"desc": "Wisdom Form to run down mountain"
+		}, {
+			"step": 3,
+			"desc": "Trinity Limit when in required fight outside Palace"
+		}, {
+			"step": 4,
+			"desc": "Magnet a bunch in hallway fight"
+		}, {
+			"step": 5,
+			"desc": "Limit form before going out to fight Storm Rider"
+		}, {
+			"step": 6,
+			"boss": {
+				"title": "Storm Rider",
+				"desc": "Trinity Limit to finish him off"
+			}
+		}]
+	}, {
+		"step": 29,
+		"title": "Twilight Town III",
+		"location": "Twilight Town",
+		"steps": [{
+			"step": 1,
+			"desc": "Wisdom Form to run through Twilight Town, cut through underground (take left path)"
+		}, {
+			"step": 2,
+			"desc": "Use Magnet and then summon Stitch in required battle outside mansion"
+		}]
+	}, {
+		"step": 30,
+		"title": "The World That Never Was",
+		"location": "The World That Never Was",
+		"steps": [{
+			"step": 1,
+			"desc": "Pause XIV before Roxas",
+			"menu": [
+				"Unequip Guard break"
+			]
+		}, {
+			"step": 2,
+			"boss": {
+				"title": "Roxas",
+				"desc": "Do guard, three ground combos, ice on Roxas. Limit Form near end"
+			}
+		}, {
+			"step": 3,
+			"desc": "Pause XV",
+			"menu": [
+				"Equip Ethers and Elixirs and stuff to Sora",
+				"Equip Two Become One Keyblade",
+				"Unequip Draw",
+				"Equip Guard Break",
+				"Equip Combo Master",
+				"Go to Donald, equip Flare Force"
+			]
+		}, {
+			"step": 4,
+			"desc": "In Elevator, drive to Master to try and get to Final"
+		}, {
+			"step": 5,
+			"desc": "Buy as many Ethers as possible from Moogle (sell Potions)"
+		}, {
+			"step": 6,
+			"desc": "Pause XVI",
+			"menu": [
+				"Equip Oathkeeper to valor",
+				"Equip Starseeker Keyblade"
+			]
+		}, {
+			"step": 7,
+			"boss": {
+				"title": "Xigbar",
+				"desc": "Against Xigbar, use Donald's Flare Force (should have 1-2 bars left), then air combo"
+			}
+		}, {
+			"step": 8,
+			"desc": "Pause XVII",
+			"menu": [
+				"Equip Rumbling Rose"
+			]
+		}, {
+			"step": 9,
+			"boss": {
+				"title": "Luxord",
+				"desc": "Use Trinity Limit into Limit Form on Luxord, use an Ether, then reflect a bunch until it's time to reflect again"
+			}
+		}, {
+			"step": 10,
+			"desc": "Pause XVIII",
+			"menu": [
+				"Unequip Guard Break",
+				"Equip Guard Counter"
+			]
+		}, {
+			"step": 11,
+			"boss": {
+				"title": "Saix",
+				"battle": [
+					"Use Reflect and Finishing Leap combos on Saix",
+					"With 1 Life Bar left, limit form on him"
+				]
+			}
+		}, {
+			"step": 12,
+			"desc": "Pause XIX",
+			"menu": [
+				"Unequip Counterguard",
+				"Equip Guard Break"
+			]
+		}, {
+			"step": 13,
+			"desc": "Wisdom form to climb the tower"
+		}, {
+			"step": 14,
+			"boss": {
+				"title": "Xemnas I",
+				"battle": [
+					"Finishing Leap combos on Xemnas while waiting for Tower thing",
+					"Wait until Third reaction command for Xemnas",
+					"Magnet and Thunder right away on Xemnas as he falls",
+					"Do Finishing Leap combos on Xemnas, reflect when he attacks you, Trinity Limit when he has two life bars left, then limit form"
+				]
+			}
+		}]
+	}, {
+		"step": 31,
+		"title": "The Final Battle",
+		"location": "The World That Never Was",
+		"steps": [{
+			"step": 1,
+			"desc": "Summon Stitch and Magnet during Reactor Core"
+		}, {
+			"step": 2,
+			"desc": "Keep using Magnet"
+		}, {
+			"step": 3,
+			"desc": "Use Reflect on Armor Dude, then summon Mickey if you haven't used him yet"
+		}, {
+			"step": 4,
+			"desc": "Ground combos and reflect on second form of Armor Dude"
+		}, {
+			"step": 5,
+			"boss": {
+				"title": "Final Xemnas",
+				"battle": [
+					"Reflect and Triangle Reaction commands during reversal part of Xemnas",
+					"Limit form on Xemnas, then use Ethers and Reflects, and session/Trinity Limit"
+				]
+			}
+		}]
+	}]
+}

@@ -1,0 +1,97 @@
+{
+	"name": "Pokemon Blue Any% Glitchless Nidoking Route",
+	"description": "The route found on pokemon speedruns, the exarion route I guess",
+	"time": "2:15:00",
+	"route": [
+				{
+					"step": 1,
+					"title": "Pre Game",
+					"steps": [
+							{
+								"step": 1,
+								"desc": "Clear any existing save file with Up+B+Select on title screen"
+							},
+							{
+								"step": 2,
+								"desc": "Set options to FAST OFF SHIFT"
+							},
+							{
+								"step": 3,
+								"desc": "Name you and rival a"
+							}
+					]
+				},
+				{
+					"step": 2,
+					"title": "Pallet Town I",
+					"desc": "Exit and go north to spawn Oak. Select the MIDDLE pokeball for squirtle. Fight rival, then leave and head north to Route 1",
+					"warning": "Don't mash A until you see a text box after fighting Rival, otherwise you might get an extra cutscene",
+					"Objectives": [{
+									"title": "Rival 1",
+									"desc": "Tail whip once, then tackle until it faints",
+									"alternate": "If bulbasaur growls right away tail whip again"
+					}]
+				},
+				{
+					"step": 3,
+					"title": "Getting Oaks Parcel",
+					"desc": "Go grab oaks parcel, head back to pallet, then back to Viridian. Make sure to win one encounter (lvl 2-3 Rattata or 2 pidgey)"
+				},
+				{
+					"step": 4,
+					"title": "Viridian City I",
+					"steps": [
+								{
+									"step": 1,
+									"desc": "Buy 7-8 Pokeballs from the mart"
+								},
+								{
+									"step": 2,
+									"desc": "Head west and catch a level 3 or 4 Nidoran",
+									"alternate": "If you encounter a Spearow, attempt to catch it",
+									"objectives": [{
+										"title": "Catching Nidoran",
+										"desc": "Tackle lv 3 Nidorans once, but just throw pokeballs at lv4"
+									},
+									{
+										"title": "Catching Spearow",
+										"desc": "Tackle a lvl 3 once, and just throw pokeballs at lvl 5"
+									}
+									]
+								},
+								{
+									"step": 3,
+									"desc": "On the way to the forest, grab the potion by the cut tree above the old man"
+								}
+					]
+				},
+				{
+					"step": 5,
+					"title":"Viridian Forest I",
+					"img": "http://i.imgur.com/3o7klcA.png",
+					"desc": "Pick up the antidote on the way up, if Squirtle is under 10 HP, use a potion and grab the hidden one by the bug catcher",
+					"steps": [{
+						"step": 1,
+						"desc": "After the battle, open the menu and do the following",
+						"steps": [{
+							"step": 1,
+							"desc": "Switch Squirtle with Nidoran"
+							},
+							{
+							"step": 2,
+							"desc": "Potion Squirtle if Reqd"
+								},
+							{
+							"step": 3,
+							"desc": "Antidote Squirtle if Reqd"
+								}]
+						}],
+					"objectives": [{
+						"title": "Bug Catcher",
+						"desc": "Tail Whip x2, then tackle until weedle faints",
+						"alternate": "If Squirtle is below 5 hp use potion. When Squirtle gets to lvl 8, check special (if 13 will use potion, if 14-15 only heal if below 20HP)"
+					}
+					]
+				}
+	]
+}
